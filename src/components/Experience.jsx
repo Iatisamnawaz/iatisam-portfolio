@@ -12,18 +12,19 @@ import { textVariant } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{
-      background: '#eaeaec',
-      color: '#292929',
-      boxShadow:
-        'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
-    }}
+  contentStyle={{
+    background: 'black',
+    color: '#292929',
+    boxShadow:
+      'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
+  }}
+    
     contentArrowStyle={{
-      borderRight: '7px solid  #232631',
+      borderRight: '7px solid  #FA991C',
     }}
     date={
       <div>
-        <h3 className="text-dim text-[18px] font-bold font-beckman">
+        <h3 className="text-palleteFour text-[18px] font-bold font-beckman">
           {experience.date}
         </h3>
       </div>
@@ -39,11 +40,11 @@ const ExperienceCard = ({ experience }) => (
       </div>
     }>
     <div>
-      <h3 className="text-jetLight text-[24px] font-bold font-beckman tracking-[2px]">
+      <h3 className="text-palleteFour text-[24px] font-bold font-beckman tracking-[2px]">
         {experience.title}
       </h3>
       <p
-        className="text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]"
+        className="text-palleteTwo text-[22px] font-semibold font-overcameBold tracking-[1px]"
         style={{ margin: 0 }}>
         {experience.company_name}
       </p>
@@ -102,7 +103,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  'https://docs.google.com/document/d/1Mctngp9YHnBGogBCXKIOpAR0tqaD_I8CYiMYl8QafXs/edit?usp=sharing', //paste the link to your resume here
                   '_blank'
                 )
               }

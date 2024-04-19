@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --pallete-one: #032539;
+  --pallete-two: #1C768F;
+  --pallete-three: #FA991C;
+  --pallete-four: #FBF3F2;
+  --pallete-five: #1C3334;
+}
+
 @font-face {
   font-family: 'Arenq';
   src: url('./fonts/arenq.otf');
@@ -42,7 +50,7 @@
   display: block;
   width: 0;
   height: 3px;
-  background: #292929;
+  background: var(--pallete-three);
   margin: auto;
   transition: 0.5s;
 }
@@ -108,7 +116,7 @@
 }
 
 .black-gradient {
-  background: #000000;
+  background: #bc0000;
   background: -webkit-linear-gradient(to right, #434343, #000000);
   background: linear-gradient(to right, #434343, #000000);
 }

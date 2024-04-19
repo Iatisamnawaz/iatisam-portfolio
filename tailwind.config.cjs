@@ -27,6 +27,13 @@ export default {
         richBlack: '#2e2e2e',
         eerieBlack: '#1f1f1f',
         onyx: '#5b5b5b',
+        palleteOne: '#032539',
+        palleteTwo: '#1C768F',
+        palleteThree: '#FA991C',
+        palleteFour: '#FBF3F2',
+        palleteFive: '#1C3334',
+        
+
       },
       boxShadow: {
         card: '0px 35px 120px -15px #1f1f1f',
@@ -66,3 +73,4 @@ export default {
   },
   plugins: [],
 };
+

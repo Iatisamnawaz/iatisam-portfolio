@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import shaq from './personal/iatisam.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -31,12 +31,11 @@ import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
+import tensorflow from './tech/tensorflow.png';
 import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import python from './tech/python.png';
+import django from './tech/django.png';
+import mysql from './tech/mysql.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -76,16 +75,14 @@ export {
   docker,
   figma,
   git,
-  graphql,
+  django,
   html,
   javascript,
   nodejs,
-  postgresql,
-  rubyrails,
   reactjs,
-  redux,
+  python,
+  mysql,
   tailwind,
-  typescript,
   komikult,
   leaderboard,
   math,
@@ -96,4 +93,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  tensorflow,
 };
