@@ -29,16 +29,16 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'service_txahlj4', // paste your ServiceID here (you'll get one when your service is created).
+        'template_fqjjg2b', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'YourName', // put your name here.
+          to_name: 'Iatisam Nawaz', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'iatisamnawaz35@gmail.com', //put your email here.
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        'r0ijla9kX6ZdghNnH' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
@@ -62,10 +62,10 @@ const Contact = () => {
   return (
     <div
       className="-mt-[8rem] xl:flex-row flex-col-reverse 
-      flex gap-10 overflow-hidden">
+      flex gap-10 overflow-hidden ">
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className="flex-[0.75] bg-jet p-8 rounded-2xl">
+        className="flex-[0.75] bg-jet p-8 rounded-2xl border-solid border-4 border-palleteThree">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
 

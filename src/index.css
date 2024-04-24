@@ -150,7 +150,29 @@
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
 }
+.landingSectionTitle::before {
+  content: "";
+  position: absolute;
+  left: 105%;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100vw;
+  color:#FA991C
+}
 
+@media (max-width: 768px) {
+  .landingSectionTitle::before {
+    left: 50%;
+    right: auto;
+    top: -20px;
+    transform: translate(-50%, -50%);
+    height: 8px;
+    width: 150px;
+    color:#FA991C
+  }
+}
 @keyframes mulShdSpin {
   0%,
   100% {

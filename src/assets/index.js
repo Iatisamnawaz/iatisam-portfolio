@@ -36,6 +36,7 @@ import tailwind from './tech/tailwind.png';
 import python from './tech/python.png';
 import django from './tech/django.png';
 import mysql from './tech/mysql.png';
+import cplus from './tech/cplus.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -81,6 +82,7 @@ export {
   nodejs,
   reactjs,
   python,
+  cplus,
   mysql,
   tailwind,
   komikult,

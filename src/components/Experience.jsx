@@ -17,6 +17,7 @@ const ExperienceCard = ({ experience }) => (
     color: '#292929',
     boxShadow:
       'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
+      border: '2px solid #FA991C',
   }}
     
     contentArrowStyle={{
@@ -71,7 +72,7 @@ const Experience = () => {
           ))}
           <VerticalTimelineElement
             contentStyle={{
-              background: '#eaeaec',
+              background: 'black',
               color: '#292929',
               boxShadow:
                 'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
@@ -93,17 +94,18 @@ const Experience = () => {
               </div>
             }>
             <button
-              className="live-demo flex justify-between 
-              sm:text-[18px] text-[14px] text-timberWolf 
-              font-bold font-beckman items-center py-5 pl-3 pr-3 
-              whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
-              w-[125px] h-[46px] rounded-[10px] bg-jetLight 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-              hover:text-eerieBlack transition duration-[0.2s] 
-              ease-in-out"
+               className="live-demo flex justify-between 
+               sm:text-[18px] text-[14px] text-timberWolf 
+               font-bold font-beckman items-center py-5 pl-3 pr-3 
+               whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
+               w-[125px] h-[46px] rounded-[10px] bg-palleteOne 
+               sm:mt-[22px] mt-[16px] hover:bg-palleteOne 
+               hover:text-palleteFour transition duration-[0.2s] 
+               ease-in-out transition-colors hover:border-solid 
+               hover:border-2 border-palleteThree"
               onClick={() =>
                 window.open(
-                  'https://docs.google.com/document/d/1Mctngp9YHnBGogBCXKIOpAR0tqaD_I8CYiMYl8QafXs/edit?usp=sharing', //paste the link to your resume here
+                  'https://drive.google.com/file/d/18m2su8CUwlzDHCLxqO-VrD2jyLdTih2U/view?usp=sharing', //paste the link to your resume here
                   '_blank'
                 )
               }

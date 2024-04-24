@@ -26,6 +26,7 @@ import {
   dcc,
   kelhel,
   microverse,
+  cplus,
 } from '../assets';
 
 export const navLinks = [
@@ -64,27 +65,27 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: 'html',
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: 'css',
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: 'javascript',
     icon: javascript,
   },
   {
-    name: 'React JS',
+    name: 'reactjs',
     icon: reactjs,
   },
   {
-    name: 'Tailwind CSS',
+    name: 'tailwind',
     icon: tailwind,
   },
   {
-    name: 'Node JS',
+    name: 'nodejs',
     icon: nodejs,
   },
   {
@@ -100,20 +101,24 @@ const technologies = [
     icon: docker,
   },
   {
-    name: 'MySql',
+    name: 'mysql',
     icon: mysql,
   },
   {
-    name: 'TensorFlow',
+    name: 'tensorflow',
     icon: tensorflow,
   },
   {
-    name: 'Djando',
+    name: 'djando',
     icon: django,
   },
   {
-    name: 'Python',
+    name: 'python',
     icon: python,
+  },
+  {
+    name: 'cplus',
+    icon: cplus,
   },
 ];
 
@@ -143,118 +148,136 @@ const experiences = [
 ];
 
 const projects = [
+
   {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    id: 'project-2',
+    name: 'Hotel Data',
+    description: 'An Exploratory data analysis on hotel reviews',
+    languages: 'python, jupyter notebook',
+    category: 'Data Analysis',
+
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
+        name: 'python',
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/Iatisamnawaz/Hotel-Data-Analysis',
+    demo: 'src/assets/demoProjects/hotelreviews.html',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'ReadNation',
+    description: 'A simple Crud Application made on node js',
+    languages: 'nodejs, mysql',
+    category: 'Web Development',
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: 'python',
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: 'mysql',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: komikult,
+    repo: 'https://github.com/Iatisamnawaz/readnation',
+    demo: 'https://github.com/Iatisamnawaz/readnation',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'BrainLink',
+    description: 'Social Media Application made on django',
+    languages: 'python, mysql, html, bootstrap, reddis',
+    category: 'Web Development',
+
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: 'python',
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: 'mysql',
+      },
+      {
+        name: 'html',
       },
       {
         name: 'css',
-        color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: komikult,
+    repo: 'https://github.com/Iatisamnawaz/BrainLink',
+    demo: 'https://iatisamnawaz.pythonanywhere.com/accounts/login/?next=/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+    name: 'Simple Rest Api',
+    description: 'A rest API that takes csv data and displays it to the user',
+    languages: 'python, postgres, html, bootstrap',
+    category: 'Web Development',
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: 'python',
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: 'mysql',
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: 'html',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: komikult,
+    repo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
+    demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
   },
+  {
+    id: 'project-6',
+    name: 'Movie App',
+    description: 'Movie App made on React Native cloning modern ott platform',
+    languages: 'React Native',
+    category: 'App Development',
+
+    tags: [
+      {
+        name: 'reactjs',
+      },
+    ],
+    image: komikult,
+    repo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
+    demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
+  },
+  {
+    id: 'project-7',
+    name: 'Potato Panda',
+    description: 'A simple Crud Application made on node js',
+    languages: 'JavaScript, P5.js',
+    category: 'Games Development',
+
+    tags: [
+      {
+        name: 'reactjs',
+      },
+    ],
+    image: komikult,
+    repo: 'https://github.com/Iatisamnawaz/readnation',
+    demo: 'https://potatopanda.netlify.app/',
+  },
+  {
+    id: 'project-8',
+    name: 'Machine Learning',
+    description: 'A machine learning project on comparing KNN and PCA using exploratory data analysis',
+    languages: 'Python, Jupyter Notebook',
+    category: 'Data Analysis',
+
+    tags: [
+      {
+        name: 'reactjs',
+      },
+    ],
+    image: komikult,
+    repo: 'https://github.com/Iatisamnawaz/KNN-PCA',
+    demo: 'src/assets/demoProjects/PCA.html',
+  },
+
 ];
 
 export { services, technologies, experiences, projects };
