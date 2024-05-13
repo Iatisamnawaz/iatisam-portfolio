@@ -24,7 +24,7 @@ function ProjectCard({
           <a href={project.repo || project.demo} target="_blank">
             <h3 className="text-lg font-bold">{project.name}</h3>
           </a>
-          <div className="space-x-2">
+          <div className="space-x-2 flex">
             {project.demo && (
               <a href={project.demo} target="_blank" rel="noreferrer">
                 <img
@@ -48,7 +48,7 @@ function ProjectCard({
           </div>
         </div>
         <p className="text-fun-gray text-left text-sm">{project.description}</p>
-        <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">
+        <ul className="flex flex-wrap items-center mt-2 -ml-1 list-none">
           {project.tags.map((tag, index) => {
             return (
               <li key={tag}>
