@@ -368,7 +368,7 @@ const projects = [
       },
     ],
     image: portfolio,
-    repo: 'https://github.com/Iatisamnawaz/Merkelrex-Exchange',
+    repo: 'https://github.com/Iatisamnawaz/iatisam-portfolio/tree/main',
   },
 
 ];
