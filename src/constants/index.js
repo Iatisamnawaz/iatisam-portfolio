@@ -33,6 +33,7 @@ import {
   ml_1,
   dataAnalysis,
   readnation,
+  merkelrex,
 } from '../assets';
 
 export const navLinks = [
@@ -345,7 +346,7 @@ const projects = [
         name: 'C++',
       },
     ],
-    image: ml_1,
+    image: merkelrex,
     repo: 'https://github.com/Iatisamnawaz/Merkelrex-Exchange',
   },
 
