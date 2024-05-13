@@ -1,6 +1,6 @@
 import React from "react";
 import github from '../assets/icons/github.svg'
-import linkedin from '../assets/projects/linkedin.png'
+import liveLink from '../assets/icons/external-link.svg'
 
 function ProjectCard({ 
   project
@@ -30,7 +30,7 @@ function ProjectCard({
             {project.demo && (
               <a href={project.demo} target="_blank" rel="noreferrer">
                 <img
-                  src={linkedin}
+                  src={liveLink}
                   width={16}
                   height={16}
                   alt="Link Icon"

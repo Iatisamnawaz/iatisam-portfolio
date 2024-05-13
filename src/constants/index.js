@@ -333,6 +333,21 @@ const projects = [
     repo: 'https://github.com/Iatisamnawaz/KNN-PCA',
     demo: 'src/assets/demoProjects/PCA.html',
   },
+  {
+    id: 'project-9',
+    name: 'Merkelrex-Exchange',
+    description: 'A crypto trading bot that predicts and gives a signal to buy and sell bitcoin using csv data input.',
+    languages: 'C++',
+    category: 'Data Analysis',
+
+    tags: [
+      {
+        name: 'C++',
+      },
+    ],
+    image: ml_1,
+    repo: 'https://github.com/Iatisamnawaz/Merkelrex-Exchange',
+  },
 
 ];
 
