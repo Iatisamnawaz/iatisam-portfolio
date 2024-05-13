@@ -23,6 +23,7 @@ const Tech = () => {
       </div>
     </>
   );
+  
 };
 
 export default SectionWrapper(Tech, '');
