@@ -65,6 +65,7 @@ import dataAnalysis from './projects/dataAnalysis.png';
 import readnation from './projects/readnation.png';
 import django_rest from './projects/django-rest.jpg';
 import merkelrex from './projects/merkelrex.jpg';
+import portfolio from './projects/portfolio.jpeg';
 
 export {
   bwmap,
@@ -125,5 +126,6 @@ export {
   readnation,
   django_rest,
   merkelrex,
+  portfolio,
   
 };

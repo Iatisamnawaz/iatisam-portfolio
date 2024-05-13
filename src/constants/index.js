@@ -34,6 +34,7 @@ import {
   dataAnalysis,
   readnation,
   merkelrex,
+  portfolio,
 } from '../assets';
 
 export const navLinks = [
@@ -347,6 +348,26 @@ const projects = [
       },
     ],
     image: merkelrex,
+    repo: 'https://github.com/Iatisamnawaz/Merkelrex-Exchange',
+  },
+  {
+    id: 'project-10',
+    name: 'Portfolio Website',
+    languages: 'Reactjs',
+    category: 'Data Analysis',
+
+    tags: [
+      {
+        name: 'reactjs',
+      },
+      {
+        name: 'tailwindCSS',
+      },
+      {
+        name: 'Threejs',
+      },
+    ],
+    image: portfolio,
     repo: 'https://github.com/Iatisamnawaz/Merkelrex-Exchange',
   },
 
