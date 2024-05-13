@@ -50,6 +50,16 @@ import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
+
+// Project Images
+import panda from './projects/panda.png';
+import movieapp from './projects/movieapp.png';
+import brainlink from './projects/brainlink.png';
+import ml_1 from './projects/ml-1.png';
+import dataAnalysis from './projects/dataAnalysis.png';
+import readnation from './projects/readnation.png';
+import django_rest from './projects/django-rest.jpg';
+
 export {
   bwmap,
   nairobi,
@@ -96,4 +106,12 @@ export {
   kelhel,
   microverse,
   tensorflow,
+  panda,
+  movieapp,
+  brainlink,
+  ml_1,
+  dataAnalysis,
+  readnation,
+  django_rest,
+  
 };

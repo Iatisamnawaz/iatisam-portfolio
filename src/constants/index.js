@@ -16,7 +16,7 @@ import {
   django,
   figma,
   docker,
-  komikult,
+  django_rest,
   leaderboard,
   math,
   movie,
@@ -27,6 +27,12 @@ import {
   kelhel,
   microverse,
   cplus,
+  panda,
+  movieapp,
+  brainlink,
+  ml_1,
+  dataAnalysis,
+  readnation,
 } from '../assets';
 
 export const navLinks = [
@@ -161,7 +167,7 @@ const projects = [
         name: 'python',
       },
     ],
-    image: komikult,
+    image: dataAnalysis,
     repo: 'https://github.com/Iatisamnawaz/Hotel-Data-Analysis',
     demo: 'src/assets/demoProjects/hotelreviews.html',
   },
@@ -178,8 +184,17 @@ const projects = [
       {
         name: 'mysql',
       },
+      {
+        name: 'html',
+      },
+      {
+        name: 'css',
+      },
+      {
+        name: 'bootstrap',
+      },
     ],
-    image: komikult,
+    image: readnation,
     repo: 'https://github.com/Iatisamnawaz/readnation',
     demo: 'https://github.com/Iatisamnawaz/readnation',
   },
@@ -203,8 +218,11 @@ const projects = [
       {
         name: 'css',
       },
+      {
+        name: 'bootstrap',
+      },
     ],
-    image: komikult,
+    image: brainlink,
     repo: 'https://github.com/Iatisamnawaz/BrainLink',
     demo: 'https://iatisamnawaz.pythonanywhere.com/accounts/login/?next=/',
   },
@@ -224,8 +242,14 @@ const projects = [
       {
         name: 'html',
       },
+      {
+        name: 'css',
+      },
+      {
+        name: 'bootstrap',
+      },
     ],
-    image: komikult,
+    image: django_rest,
     repo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
     demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
   },
@@ -238,10 +262,10 @@ const projects = [
 
     tags: [
       {
-        name: 'reactjs',
+        name: 'react native',
       },
     ],
-    image: komikult,
+    image: movieapp,
     repo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
     demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
   },
@@ -254,10 +278,19 @@ const projects = [
 
     tags: [
       {
-        name: 'reactjs',
+        name: 'html',
+      },
+      {
+        name: 'cs',
+      },
+      {
+        name: 'javscript',
+      },
+      {
+        name: 'p5.js',
       },
     ],
-    image: komikult,
+    image: panda,
     repo: 'https://github.com/Iatisamnawaz/readnation',
     demo: 'https://potatopanda.netlify.app/',
   },
@@ -270,10 +303,13 @@ const projects = [
 
     tags: [
       {
-        name: 'reactjs',
+        name: 'python',
+      },
+      {
+        name: 'tensorflow',
       },
     ],
-    image: komikult,
+    image: ml_1,
     repo: 'https://github.com/Iatisamnawaz/KNN-PCA',
     demo: 'src/assets/demoProjects/PCA.html',
   },

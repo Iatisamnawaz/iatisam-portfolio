@@ -32,6 +32,13 @@ export default {
         palleteThree: '#FA991C',
         palleteFour: '#FBF3F2',
         palleteFive: '#1C3334',
+        python: '#4B8BBE',
+        html: '#E34F26',
+        css: '#1572B6',
+        reactnative: '#61DBFB',
+        reactjs: '#4B8BBE',
+        mysql: '#00758F',
+        javascript: '#F7DF1E',
         
 
       },
@@ -51,14 +58,14 @@ export default {
       },
       backgroundImage: {
         about:
-          'linear-gradient(165deg, rgba(244,244,246,0.8) 40%, rgba(3,37,57,1) 100%)',
+          'linear-gradient(165deg,rgba(0,0,0,0.1) 100%, rgba(244,244,246,0.1) 20%)',
         experience:
-          "linear-gradient(135deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.2) 100%),url('/src/assets/backgrounds/white-abstract.png')",
+          "linear-gradient(135deg, rgba(0,0,0,0.5) 60%, rgba(10,10,10,0.2) 100%),url('/src/assets/backgrounds/white-abstract.png')",
         experienceLight:
-          'linear-gradient(137deg, rgba(244,244,246,0.5) 60%, rgba(3,37,57,1) 60%)',
-        hero: 'linear-gradient(135deg, rgba(244,244,246,0.8) 0%, rgba(10,10,10,1) 60%)',
-        'hero-mobile':
-          'linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)',
+          'linear-gradient(137deg, rgba(0,0,0,0.5) 60%, rgba(3,37,57,1) 60%)',
+          hero: 'linear-gradient(135deg, rgba(0,0,0,0.8) 60%, rgba(10,10,10,0.95) 60%)',
+          'hero-mobile':
+            'linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)',
         tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/backgrounds/nairobi.png')",
       },
       fontFamily: {

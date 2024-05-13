@@ -48,36 +48,26 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* mobile */}
-        <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
+        {/* Mobile Navbar */}
+        <div className="sm:hidden">
           {toggle ? (
-            <div
-              className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 w-screen h-[100vh] z-10 menu ${
-                  toggle ? 'menu-open' : 'menu-close'
-                }`}>
-              <div className="flex justify-end">
-                <img
-                  src={close}
-                  alt="close"
-                  className="w-[22px] h-[22px] object-contain cursor-pointer"
-                  onClick={() => setToggle(!toggle)}
-                />
-              </div>
-              <ul
-                className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+            <div className="fixed top-0 left-0 w-full h-full bg-palleteOne z-50 flex flex-col items-center justify-center">
+              <img
+                src={close}
+                alt="close"
+                className="absolute top-4 right-4 w-8 h-8 cursor-pointer"
+                onClick={() => setToggle(!toggle)}
+              />
+              <ul className="flex flex-col items-center space-y-6">
                 {navLinks.map((nav) => (
                   <li
-                    id={nav.id}
                     key={nav.id}
                     className={`${
-                      active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
-                      uppercase tracking-[1px] cursor-pointer`}
+                      active === nav.title ? 'text-palleteThree' : 'text-palleteFour'
+                    } text-lg font-semibold cursor-pointer`}
                     onClick={() => {
-                      setToggle(!toggle);
                       setActive(nav.title);
+                      setToggle(false);
                     }}>
                     <a href={`#${nav.id}`}>{nav.title}</a>
                   </li>
