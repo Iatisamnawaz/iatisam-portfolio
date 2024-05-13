@@ -37,10 +37,11 @@ import python from './tech/python.png';
 import django from './tech/django.png';
 import mysql from './tech/mysql.png';
 import cplus from './tech/cplus.png';
-import chash from './tech/chash.png';
-import jupyter from './tech/jupyter.png';
-import gitlab from './tech/gitlab.png';
-import github from './tech/github.png';
+// import chash from './tech/chash.svg';
+// import jupyter from './tech/jupyter.svg';
+// import gitlab from './tech/gitlab.svg';
+// import github from './tech/github.svg';
+// import unity from './tech/unity.svg';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -99,10 +100,11 @@ export {
   cplus,
   mysql,
   tailwind,
-  chash,
-  github,
-  gitlab,
-  jupyter,
+  // chash,
+  // github,
+  // gitlab,
+  // jupyter,
+  // unity,
   komikult,
   leaderboard,
   math,

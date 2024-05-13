@@ -17,10 +17,6 @@ import {
   figma,
   docker,
   django_rest,
-  jupyter,
-  chash,
-  gitlab,
-  github,
   leaderboard,
   math,
   movie,
@@ -132,23 +128,23 @@ const technologies = [
   },
   {
     name: 'chash',
-    icon: cplus,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg',
   },
   {
     name: 'unity',
-    icon: cplus,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg',
   },
   {
     name: 'gitlab',
-    icon: gitlab,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-plain-wordmark.svg',
   },
   {
     name: 'jupyter',
-    icon: jupyter,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg',
   },
   {
     name: 'github',
-    icon: github,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
   },
 ];
 
