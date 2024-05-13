@@ -70,18 +70,18 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: 'html',
-    icon: html,
-  },
-  {
-    name: 'css',
-    icon: css,
-  },
-  {
-    name: 'javascript',
-    icon: javascript,
-  },
+  // {
+  //   name: 'html',
+  //   icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg',
+  // },
+  // {
+  //   name: 'css',
+  //   icon: css,
+  // },
+  // {
+  //   name: 'javascript',
+  //   icon: javascript,
+  // },
   {
     name: 'reactjs',
     icon: reactjs,
