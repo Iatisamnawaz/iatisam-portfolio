@@ -273,7 +273,7 @@ const projects = [
     ],
     image: django_rest,
     repo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
-    // demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
+    demo: 'https://youtu.be/yPS7HwoW_-M',
   },
   {
     id: 'project-6',
@@ -289,7 +289,7 @@ const projects = [
     ],
     image: movieapp,
     repo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
-    // demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
+    demo: 'https://www.youtube.com/watch?v=uPVRbUcFe-E',
   },
   {
     id: 'project-7',
@@ -349,6 +349,7 @@ const projects = [
     ],
     image: merkelrex,
     repo: 'https://github.com/Iatisamnawaz/Merkelrex-Exchange',
+    demo: 'https://youtu.be/Dr1G9H9J10o'
   },
   {
     id: 'project-10',
