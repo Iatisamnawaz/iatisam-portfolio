@@ -6,7 +6,7 @@ import { shaq, bwmap, worldmap } from '../assets';
 import { download, downloadHover, resume } from '../assets';
 import github from '../assets/icons/github.svg'
 import linkedin from '../assets/projects/linkedin.png'
-import email from '../assets/projects/email.png'
+import email from '../assets/icons/email.png'
 
 const Hero = () => {
   return (
