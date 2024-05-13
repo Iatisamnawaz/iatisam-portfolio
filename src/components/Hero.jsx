@@ -37,11 +37,11 @@ const Hero = () => {
 
           <div>
               <h1
-                className={`${styles.heroHeadText} text-battleGray font-poppins uppercase`}
+                className={`${styles.heroHeadText} text-palleteFour font-poppins uppercase`}
               >
                 Hi, I'm{' '}
                 <span
-                  className="sm:text-palleteFour sm:text-[90px] 
+                  className="sm:text-palleteThree sm:text-[90px] 
                   text-palleteFour text-[50px] font-mova
                   font-extrabold uppercase"
                 >
@@ -154,10 +154,10 @@ const Hero = () => {
         <div>
           <img
             className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
+            lg:ml-[65vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
             src={shaq}
-            alt="shaquille"
+            alt="Iatisam"
           />
         </div>
       </section>

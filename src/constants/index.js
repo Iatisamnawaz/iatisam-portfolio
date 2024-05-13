@@ -17,6 +17,10 @@ import {
   figma,
   docker,
   django_rest,
+  jupyter,
+  chash,
+  gitlab,
+  github,
   leaderboard,
   math,
   movie,
@@ -125,6 +129,26 @@ const technologies = [
   {
     name: 'cplus',
     icon: cplus,
+  },
+  {
+    name: 'chash',
+    icon: cplus,
+  },
+  {
+    name: 'unity',
+    icon: cplus,
+  },
+  {
+    name: 'gitlab',
+    icon: gitlab,
+  },
+  {
+    name: 'jupyter',
+    icon: jupyter,
+  },
+  {
+    name: 'github',
+    icon: github,
   },
 ];
 

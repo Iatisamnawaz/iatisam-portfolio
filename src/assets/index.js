@@ -37,6 +37,10 @@ import python from './tech/python.png';
 import django from './tech/django.png';
 import mysql from './tech/mysql.png';
 import cplus from './tech/cplus.png';
+import chash from './tech/chash.png';
+import jupyter from './tech/jupyter.png';
+import gitlab from './tech/gitlab.png';
+import github from './tech/github.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -95,6 +99,10 @@ export {
   cplus,
   mysql,
   tailwind,
+  chash,
+  github,
+  gitlab,
+  jupyter,
   komikult,
   leaderboard,
   math,
