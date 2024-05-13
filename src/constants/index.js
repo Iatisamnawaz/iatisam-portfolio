@@ -272,7 +272,7 @@ const projects = [
     ],
     image: django_rest,
     repo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
-    demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
+    // demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
   },
   {
     id: 'project-6',
@@ -288,7 +288,7 @@ const projects = [
     ],
     image: movieapp,
     repo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
-    demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
+    // demo: 'https://github.com/Iatisamnawaz/Simple-Restful-API',
   },
   {
     id: 'project-7',
