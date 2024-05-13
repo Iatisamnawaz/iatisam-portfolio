@@ -51,7 +51,7 @@ const Hero = () => {
                   Iatisam
                 </span>
               </h1>
-              <p className={`${styles.heroSubText} mt-2 text-secondary `}>
+              <p className={`${styles.heroSubText} mt-2 text-taupe `}>
                 I am a <span className="font-bold text-palleteThree">DevOps</span> Engineer. <br className="sm:block hidden" />
                 and I love <span className="font-bold text-palleteThree">building</span> Websites.
               </p>
@@ -92,10 +92,10 @@ const Hero = () => {
               </div>
               <div >
               <button
-               className="live-demo flex justify-between 
+               className="live-demo flex justify-center 
                sm:text-[18px] text-[14px] text-timberWolf 
                font-bold font-beckman items-center py-5 pl-3 pr-3 
-               whitespace-nowrap gap-1 sm:w-[95px] sm:h-[58px] 
+               whitespace-nowrap gap-1 sm:w-[133px] sm:h-[58px] 
                w-[125px] h-[46px] rounded-[10px] bg-palleteOne 
                sm:mt-[22px] mt-[16px] hover:bg-palleteOne 
                hover:text-palleteThree transition duration-[0.2s] 
