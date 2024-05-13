@@ -38,12 +38,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Welcome to my website! I'm a passionate technology enthusiast with a solid foundation in Computer Science, earned through my BSc.(Hons) degree from Goldsmiths, University of London, and a foundation year at Latrobe College, Melbourne. As a DevOps Engineer Intern at Parkyeri, I honed my skills in Agile methodologies and cross-functional collaboration, contributing to a 20% increase in development efficiency. My experiences at Bright Network and Edulaxy Hybrid further sharpened my project management and development prowess, resulting in tangible improvements in project timelines and user engagement. Through personal projects like scalable web applications and data analysis endeavors, I've showcased my proficiency in a wide array of technologies and methodologies. Let's explore how we can innovate together in the ever-evolving tech landscape!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

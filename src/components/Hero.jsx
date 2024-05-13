@@ -4,6 +4,9 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { shaq, bwmap, worldmap } from '../assets';
 import { download, downloadHover, resume } from '../assets';
+import github from '../assets/icons/github.svg'
+import linkedin from '../assets/projects/linkedin.png'
+import email from '../assets/projects/email.png'
 
 const Hero = () => {
   return (
@@ -56,7 +59,7 @@ const Hero = () => {
               <div >
               <a  href={"https://github.com/Iatisamnawaz"} target="_blank" rel="noreferrer">
                 <img
-                  src="src/assets/icons/github.svg"
+                  src={github}
                   width={32}
                   height={32}
                   alt="Link Icon"
@@ -67,7 +70,7 @@ const Hero = () => {
               <div className="ml-4 ">
               <a  href={"https://www.linkedin.com/in/iatisam-nawaz-16820121b/"} target="_blank" rel="noreferrer">
                 <img
-                  src="src/assets/projects/linkedin.png"
+                  src={linkedin}
                   width={32}
                   height={32}
                   alt="Link Icon"
@@ -78,7 +81,7 @@ const Hero = () => {
               <div className="ml-4 ">
               <a  href={"mailto:iatisamnawa35@gmail.com"} target="_blank" rel="noreferrer">
                 <img
-                  src="src/assets/projects/email.png"
+                  src={email}
                   width={32}
                   height={32}
                   alt="Link Icon"

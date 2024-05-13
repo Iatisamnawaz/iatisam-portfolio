@@ -1,4 +1,6 @@
 import React from "react";
+import github from '../assets/icons/github.svg'
+import linkedin from '../assets/projects/linkedin.png'
 
 function ProjectCard({ 
   project
@@ -28,7 +30,7 @@ function ProjectCard({
             {project.demo && (
               <a href={project.demo} target="_blank" rel="noreferrer">
                 <img
-                  src="src/assets/icons/external-link.svg"
+                  src={linkedin}
                   width={16}
                   height={16}
                   alt="Link Icon"
@@ -38,7 +40,7 @@ function ProjectCard({
             {project.repo && (
               <a href={project.repo} target="_blank" rel="noreferrer">
                 <img
-                  src="src/assets/icons/github.svg"
+                  src={github}
                   width={16}
                   height={16}
                   alt="Github Icon"
